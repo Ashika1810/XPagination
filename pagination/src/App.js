@@ -39,6 +39,8 @@ function App() {
 
   const pageLastIndex = pageNumber*rowsperpage;
   const pageFirstIndex = pageLastIndex-rowsperpage;
+  // const indexOfLastEmployee = Math.min(currentPage * perPage, employees.length);
+  // const indexOfFirstEmployee = Math.min(indexOfLastEmployee - perPage, employees.length);
   const currentPageEmployees = employeeData.slice(pageFirstIndex, pageLastIndex);
 
   return (
