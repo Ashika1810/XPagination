@@ -17,7 +17,8 @@ function App() {
         console.log(data);
     }
     catch(err){
-        console.log(err);
+      alert("Failed to fetch data");
+        // console.log(err);
     }
   }
 
