@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datatable thead{
+        background-color: teal;
+        border-style: none;
+}
+
+.datatable{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.datatable tbody{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.buttonContainer p{
+    padding: 5px 10px;
+    background-color: teal;
+    margin: 30px 10px;
+    border-radius: 3px;
+}
+
+.buttonContainer button{
+    background-color: teal;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
